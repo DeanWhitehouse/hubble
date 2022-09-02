@@ -1,26 +1,122 @@
-html,
+@tailwind base;
+@layer base {
+  h1, h2, h3 {
+    @apply font-serif;
+  }
+}
+
+@tailwind components;
+@tailwind utilities;
+
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  @apply bg-hubble-dark;
+  @apply text-hubble-mist;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+@font-face {
+    font-family: 'Roobert';
+    src: url('/fonts/Roobert-LightItalic.woff2') format('woff2'),
+        url('/fonts/Roobert-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
 }
 
-* {
-  box-sizing: border-box;
+@font-face {
+    font-family: 'Roobert';
+    src: url('/fonts/Roobert-MediumItalic.woff2') format('woff2'),
+        url('/fonts/Roobert-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+@font-face {
+    font-family: 'Roobert';
+    src: url('/fonts/Roobert-Regular.woff2') format('woff2'),
+        url('/fonts/Roobert-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roobert';
+    src: url('/fonts/Roobert-BoldItalic.woff2') format('woff2'),
+        url('/fonts/Roobert-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roobert';
+    src: url('/fonts/Roobert-Heavy.woff2') format('woff2'),
+        url('/fonts/Roobert-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roobert';
+    src: url('/fonts/Roobert-Bold.woff2') format('woff2'),
+        url('/fonts/Roobert-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roobert';
+    src: url('/fonts/Roobert-RegularItalic.woff2') format('woff2'),
+        url('/fonts/Roobert-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roobert';
+    src: url('/fonts/Roobert-Medium.woff2') format('woff2'),
+        url('/fonts/Roobert-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roobert';
+    src: url('/fonts/Roobert-HeavyItalic.woff2') format('woff2'),
+        url('/fonts/Roobert-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roobert';
+    src: url('/fonts/Roobert-SemiBold.woff2') format('woff2'),
+        url('/fonts/Roobert-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roobert';
+    src: url('/fonts/Roobert-Light.woff2') format('woff2'),
+        url('/fonts/Roobert-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roobert';
+    src: url('/fonts/Roobert-SemiBoldItalic.woff2') format('woff2'),
+        url('/fonts/Roobert-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
 }
