@@ -67,7 +67,7 @@ export default function Features() {
                     see
                   </h4>
                   <h3 className="text-white text-3xl mb-8">Eliminate risk</h3>
-                  <p className="text-lg pb-20 mb:pb-0">We provide visibility into your organization's environment. Giving you knowledge you don’t currently have — a single source of truth to eliminate risk.</p>
+                  <p className="text-lg pb-20 mb:pb-0">We provide visibility into your organization’s environment. Giving you knowledge you don’t currently have — a single source of truth to eliminate risk.</p>
                 </div>
               </div>
             </FeatureItem>
